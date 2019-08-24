@@ -9,9 +9,8 @@ import java.util.Scanner;
 public class Question4 {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
-        var Check = myObj.nextDouble();
-
-        System.out.println(((Check % 2 == 0) ? "Even" : "Odd"));
+        var check = myObj.nextDouble();
+        System.out.println(((check > 0) ? "Positive" : "Negative"));
 
     }
 }

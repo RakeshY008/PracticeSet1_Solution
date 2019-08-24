@@ -9,12 +9,11 @@ import java.util.Scanner;
 
 public class Question1 {
     public static void main(String[] args) {
-        String nobita = "University";
+        String KWM = "Welcome, ";
         Scanner scanner = new Scanner(System.in);
-        String shizuka1 = scanner.next();
         String shizuka = scanner.next();
 
-        System.out.println(shizuka1 + " " + nobita + " " + shizuka);
+        System.out.println(KWM + "" + shizuka + "!");
 
         scanner.close();
     }

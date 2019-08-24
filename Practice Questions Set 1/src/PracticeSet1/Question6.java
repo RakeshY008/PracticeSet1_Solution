@@ -4,24 +4,21 @@ package PracticeSet1;
     @ Version: 12.0.2
  */
 
+import java.util.Scanner;
+
 public class Question6 {
     public static void main(String[] args) {
+        Scanner myObj = new Scanner(System.in);
+        String Alp1 = myObj.next();
+        String Alp2 = myObj.next();
+        int x = Alp1.compareTo(Alp2);
+        ;
 
-       /* Scanner myObj = new Scanner(System.in);
-        String input_char = myObj.next();
+        if (x > 0) {
+            System.out.println(Alp2 + " " + Alp1);
+        } else {
+            System.out.println(Alp1 + " " + Alp2);
+        }
 
-        if ((input_char >= 65 && input_char <= 90)
-                || (input_char >= 97 && input_char <= 122))
-            System.out.println(" Alphabet ");
-
-            // CHECKING FOR DIGITS
-        else if (input_char >= 48 && input_char <= 57)
-            System.out.println(" Digit ");
-
-            // OTHERWISE SPECIAL CHARACTER
-        else
-            System.out.println(" Special Character ");
-
-        */
     }
 }
